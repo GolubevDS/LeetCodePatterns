@@ -1,4 +1,4 @@
-const containsDuplicate = require('./index');
+const containsDuplicate = require('.');
 
 describe('Contains Duplicate', () => {
 	it('1. Input: nums = [1,2,3,1]', () => {

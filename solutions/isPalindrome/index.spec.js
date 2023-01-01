@@ -1,9 +1,5 @@
-const isPalindrome = require('./index');
-
-function ListNode(val) {
-	this.val = val;
-	this.next = null;
-}
+const ListNode = require('../../helpers/listNode');
+const isPalindrome = require('.');
 
 describe('Palindrome Linked List', () => {
 	it('1. Input: head = [1,2,2,1]', () => {

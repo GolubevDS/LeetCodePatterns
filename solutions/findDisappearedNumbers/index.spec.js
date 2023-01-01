@@ -1,4 +1,4 @@
-const findDisappearedNumbers = require('./index');
+const findDisappearedNumbers = require('.');
 
 describe('Find All Numbers Disappeared in an Array', () => {
 	it('1. Input: nums = [4,3,2,7,8,2,3,1]', () => {

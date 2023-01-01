@@ -1,9 +1,5 @@
-const middleNode = require('./index');
-
-function ListNode(val) {
-	this.val = val;
-	this.next = null;
-}
+const ListNode = require('../../helpers/listNode');
+const middleNode = require('.');
 
 describe('Middle of the Linked List', () => {
 	it('1. Input: head = [1,2,3,4,5]', () => {

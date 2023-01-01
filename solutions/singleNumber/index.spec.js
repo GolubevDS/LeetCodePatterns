@@ -1,4 +1,4 @@
-const singleNumber = require('./index');
+const singleNumber = require('.');
 
 describe('Single Number', () => {
 	it('1. Input: nums = [2,2,1]', () => {

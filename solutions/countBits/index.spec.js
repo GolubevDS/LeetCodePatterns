@@ -1,4 +1,4 @@
-const countBits = require('./index');
+const countBits = require('.');
 
 describe('Counting Bits', () => {
 	it('1. Input: n = 2', () => {

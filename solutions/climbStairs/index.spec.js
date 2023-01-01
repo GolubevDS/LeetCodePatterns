@@ -1,4 +1,4 @@
-const climbStairs = require('./index');
+const climbStairs = require('.');
 
 describe('Climbing Stairs', () => {
 	it('1. Input: n = 1', () => {

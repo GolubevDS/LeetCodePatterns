@@ -1,9 +1,5 @@
-const hasCycle = require('./index');
-
-function ListNode(val) {
-	this.val = val;
-	this.next = null;
-}
+const ListNode = require('../../helpers/listNode');
+const hasCycle = require('.');
 
 describe('Linked List Cycle', () => {
 	it('1. Input: head = [3,2,0,-4], pos = 1', () => {

@@ -1,4 +1,4 @@
-const NumArray = require('./index');
+const NumArray = require('.');
 
 describe('Range Sum Query - Immutable', () => {
 	describe('numArray = new NumArray([-2, 0, 3, -5, 2, -1])', () => {

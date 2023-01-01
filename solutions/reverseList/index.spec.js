@@ -1,9 +1,5 @@
-const reverseList = require('./index');
-
-function ListNode(val) {
-	this.val = val;
-	this.next = null;
-}
+const ListNode = require('../../helpers/listNode');
+const reverseList = require('.');
 
 describe('Reverse Linked List', () => {
 	it('1. Input: head = [1,2,3,4,5]', () => {

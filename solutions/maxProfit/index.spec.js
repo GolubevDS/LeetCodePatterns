@@ -1,4 +1,4 @@
-const maxProfit = require('./index');
+const maxProfit = require('.');
 
 describe('Best Time to Buy and Sell Stock', () => {
 	it('1. Input: prices = [7,1,5,3,6,4]', () => {
