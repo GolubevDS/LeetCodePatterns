@@ -1,6 +1,6 @@
 const isIsomorphic = require('./isIsomorphic');
 
-describe('isIsomorphic', () => {
+describe('Isomorphic Strings', () => {
 	it('should return true when s and t are empty strings', () => {
 		const result = isIsomorphic('', '');
 		expect(result).toBe(true);

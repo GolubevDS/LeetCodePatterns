@@ -1,6 +1,6 @@
 # LEETCODE PATTERNS
 
-Solutions to problems from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) website
+Solving problems with LeetCode
 
 ## Problems
 
@@ -25,3 +25,4 @@ Solutions to problems from the [LeetCode Patterns](https://seanprashad.com/leetc
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                | [Solution](https://github.com/GolubevDS/LeetCodePatterns/blob/main/solutions/pivotIndex/index.js)             | Easy       |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                    | [Solution](https://github.com/GolubevDS/LeetCodePatterns/blob/main/solutions/isSubsequence/isSubsequence.js)  | Easy       |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                            | [Solution](https://github.com/GolubevDS/LeetCodePatterns/blob/main/solutions/isIsomorphic/isIsomorphic.js)    | Easy       |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                    | [Solution](https://github.com/GolubevDS/LeetCodePatterns/blob/main/solutions/mergeTwoLists/mergeTwoLists.js)  | Easy       |
