@@ -3,3 +3,9 @@ declare class ListNode {
 	next: ListNode | null;
 	constructor(val: number);
 }
+// @ts-ignore
+declare class Node {
+	val: number;
+	children: Node[];
+	constructor(val: number, children: Node[]);
+}
