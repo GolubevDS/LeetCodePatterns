@@ -3,19 +3,15 @@
  * @return {boolean}
  */
 function hasCycle(head) {
-	if (!head) {
-		return false;
-	}
+	if (!head) return false;
 
 	let [fast, slow] = [head, head];
 
-	while (slow.next && fast.next.next) {
-		slow = slow.next
-		fast = fast.next.next
+	while (slow.next && fast.next && fast.next.next) {
+		slow = slow.next;
+		fast = fast.next.next;
 
-		if (fast === slow) {
-			return true
-		}
+		if (fast === slow) return true;
 	}
 
 	return false;

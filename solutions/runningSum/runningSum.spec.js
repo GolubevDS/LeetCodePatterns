@@ -1,4 +1,4 @@
-const runningSum = require('.');
+const runningSum = require('./runningSum');
 
 describe('Running Sum of 1d Array', () => {
 	it('should return an empty array if given an empty array', () => {

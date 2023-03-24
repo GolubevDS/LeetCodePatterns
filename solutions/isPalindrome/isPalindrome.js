@@ -3,9 +3,7 @@
  * @return {boolean}
  */
 function isPalindrome(head) {
-	if (!head) {
-		return false;
-	}
+	if (!head) return false;
 
 	let result        = '',
 	    reverseResult = '',
